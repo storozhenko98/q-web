@@ -5,7 +5,7 @@
 :root {
   --background: #f0f0f0;
   --foreground: #1a1a1a;
-  --accent: #3a86ff;
+  /*--accent: #3a86ff;*/
   --border-color: #1a1a1a;
 }
 
@@ -13,7 +13,7 @@
   :root {
     --background: #1a1a1a;
     --foreground: #f0f0f0;
-    --accent: #4895ef;
+    /*--accent: #4895ef;*/
     --border-color: #f0f0f0;
   }
 }

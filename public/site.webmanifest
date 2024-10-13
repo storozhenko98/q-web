@@ -4,8 +4,6 @@
     "description": "A Golang-based CLI tool for GPT interactions",
     "start_url": "/",
     "display": "standalone",
-    "background_color": "#1a1a1a",
-    "theme_color": "#3a86ff",
     "icons": [
       {
         "src": "/android-chrome-192x192.png",
