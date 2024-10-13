@@ -1,0 +1,24 @@
+{
+    "name": "Q CLI",
+    "short_name": "Q",
+    "description": "A Golang-based CLI tool for GPT interactions",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#1a1a1a",
+    "theme_color": "#3a86ff",
+    "icons": [
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "apple-mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-title": "Q CLI",
+    "apple-touch-icon": "/apple-touch-icon.png"
+  }
