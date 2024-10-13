@@ -18,35 +18,33 @@ export default async function Home() {
 
         </div>
         <div className="flex flex-col gap-4 w-full">
-          <a
+          <Link
             className="rounded-md border border-solid border-[var(--border-color)] transition-colors flex items-center justify-center bg-accent gap-2 hover:bg-opacity-80 text-base h-12 px-5"
             href="https://github.com/storozhenko98/Q"
             target="_blank"
             rel="noopener noreferrer"
           >
             View on GitHub
-          </a>
+          </Link>
           <button
             id="copyButton"
             className="rounded-md border border-solid border-[var(--border-color)] transition-colors flex items-center justify-center hover:bg-accent text-base h-12 px-5"
           >
-            Copy Install Command
+            Copy Install Command (M-based Macs only)
           </button>
         </div>
         <p className="text-sm mt-4">
-          Anyone is welcome to contribute to this project. Check out the GitHub repository for more information.
+          Currently, the installation is only available for M-based Macs. Support for other platforms, along with any kind of contributions are encouraged. Please visit the <Link className="text-accent hover:underline" href="https://github.com/storozhenko98/Q">GitHub repository</Link> for more information.
         </p>
         <p className="text-sm mt-4">
           - storozhenko98, 2024 | <Link className="text-accent hover:underline" href="https://github.com/storozhenko98/Q">GitHub</Link>
         </p>
       </main>
       <footer className="text-center text-sm mt-8">
-      <nav className="mt-2">
-          <a href="/about" className="text-accent hover:underline">About</a>
+        <nav className="mt-2">
+          <Link href="https://github.com/storozhenko98/Q/issues" className="text-accent hover:underline">Create an Issue</Link>
           {" | "}
-          <a href="/author" className="text-accent hover:underline">Author</a>
-          {" | "}
-          <a href="/contact" className="text-accent hover:underline">Contact</a>
+          <Link href="/about" className="text-accent hover:underline">About</Link>
         </nav>
         <p>&copy; 2024 Q CLI. All rights reserved.</p>
       </footer>
